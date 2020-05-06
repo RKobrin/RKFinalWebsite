@@ -82,9 +82,17 @@ div.imgcontainer{
 div.imgtext {
     position: absolute;
     top: 5%;
+    left:50%;
+    transform:(-5%,50%);
     color:black;
     font-size:2em;
     font-family:"Lucida Console", Monaco, monospace;
     text-align:center;
-    margin-left:50%;
+    
   }
+div.imgbutton{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:(-50%,50%);
+}
