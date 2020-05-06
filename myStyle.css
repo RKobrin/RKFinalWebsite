@@ -1,5 +1,5 @@
 body{
-    background-color:lightgray;
+    background-color:whitesmoke;
     margin:0;
     padding:0;
 }
@@ -17,9 +17,11 @@ h1{
     float:middle;
     margin:0;
     padding:0;
+    width:fit-content;
+    
 }
 h2{
-    background-color:orange;
+    background-color:rgb(226, 102, 19);
     text-align:center;
 }
 p{
