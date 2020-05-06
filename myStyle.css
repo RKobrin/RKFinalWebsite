@@ -96,7 +96,14 @@ div.imgbutton{
     width:50%;
     margin-left:25%;
 }
-.enterbutton{
-    background-color: rgba(255, 255, 255, 0);
+button{
+    border:none;
+    background-color:rgba(255, 255, 255, 0.534);
+    outline: 1em;
+    font-size:1em;
     font-weight:800;
+    border-radius:2em;
+}
+button:hover{
+    background-color:rgba(255, 255, 255, 0.8);
 }
