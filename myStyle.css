@@ -17,10 +17,13 @@ img#Quark2{
 }
 h1{
     text-align:center;
-    background-color:blue;
+    background-color:black;
     margin:0;
     padding:0;
     width:100%;
+    height:40em;
+    color:white;
+    font-size:40em;
 }
 h2{
     background-color:rgb(226, 102, 19);
