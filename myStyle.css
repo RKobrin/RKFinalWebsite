@@ -16,13 +16,14 @@ img#Quark2{
   
 }
 h1{
-    text-align:center;
-    background-color:black;
+    position: absolute;
+    top:10%;
+    left:50%;
     margin:0;
     padding:0;
     width:100%;
     height:2em;
-    color:white;
+    color:black;
     font-size:2em;
 }
 h2{
@@ -35,6 +36,7 @@ p{
     margin:0;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
     font-size:1.3em;
+    margin-bottom:1.5em;
 }
 div.content{
     border-style:solid;
@@ -54,3 +56,33 @@ footer.content{
     padding-top:0.25em;
     padding-bottom:0.25em;
 }
+div.hbutton{
+    text-align:center;
+    background-color:black;
+    width:20%;
+    margin:0 auto;
+}
+div.drivetraindiv{
+    float:left;
+}
+div.intakediv{
+    float:center;
+}
+div.lineardiv{
+    float:center;
+}
+div.scoringdiv{
+    float:right;
+}
+div.imgcontainer{
+    position: relative;
+    text-align:center;
+    color: white;
+}
+div.imgtext {
+    position: absolute;
+    top: 5%;
+    right: 30%;
+    color:black;
+    font-size:2em;
+  }
