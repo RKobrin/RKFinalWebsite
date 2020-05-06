@@ -14,4 +14,12 @@ img#Quark2{
 h1{
     text-align:center;
     background-color:blue;
+    float:middle;
+}
+h2{
+    background-color:orange;
+    text-align:center;
+}
+p{
+    text-align:center;
 }
