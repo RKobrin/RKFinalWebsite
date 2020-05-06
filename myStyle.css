@@ -36,3 +36,21 @@ p{
     font-family:Cambria,Georgia,"Book Antiqua",serif;
     font-size:1.3em;
 }
+div.content{
+    border-style:solid;
+    padding-left:0.25em;
+    padding-right:0.25em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+    margin-top:5em;
+}
+footer.flexible{
+    display:flex;
+}
+footer.content{
+    border-style:solid;
+    padding-left:0.25em;
+    padding-right:0.25em;
+    padding-top:0.25em;
+    padding-bottom:0.25em;
+}
