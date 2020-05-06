@@ -96,14 +96,18 @@ div.imgbutton{
     width:50%;
     margin-left:25%;
 }
-button{
-    border:none;
-    background-color:rgba(255, 255, 255, 0.534);
-    outline: 1em;
-    font-size:1em;
-    font-weight:800;
-    border-radius:2em;
+a.button{
+    font: bold 1em Arial;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.534);
+    color: #333333;
+    padding: 10px 30px 10px 30px;
+    border-top: 1px solid #CCCCCC;
+    border-right: 1px solid #333333;
+    border-bottom: 1px solid #333333;
+    border-left: 1px solid #CCCCCC;
+    border-radius:2em;  
 }
-button:hover{
+a.button:hover{
     background-color:rgba(255, 255, 255, 0.8);
 }
