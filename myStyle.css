@@ -82,7 +82,9 @@ div.imgcontainer{
 div.imgtext {
     position: absolute;
     top: 5%;
-    right: 30%;
     color:black;
     font-size:2em;
+    font-family:"Lucida Console", Monaco, monospace;
+    text-align:center;
+    margin-left:50%;
   }
