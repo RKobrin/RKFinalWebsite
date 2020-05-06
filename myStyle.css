@@ -96,3 +96,7 @@ div.imgbutton{
     width:50%;
     margin-left:25%;
 }
+button.enterbutton{
+    background-color:rgba(255, 255, 255, 0);
+    font-weight:800;
+}
