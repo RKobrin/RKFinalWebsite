@@ -1,0 +1,17 @@
+body{
+    background-color:tan;
+    margin:0;
+    padding:0;
+}
+img#Quark1{
+    float:left;
+   
+}
+img#Quark2{
+    float:right;
+  
+}
+h1{
+    text-align:center;
+    background-color:blue;
+}
