@@ -83,7 +83,7 @@ div.imgtext {
     position: absolute;
     top: 5%;
     width:50%;
-    margin-left:28%;
+    margin-left:25%;
     color:black;
     font-size:2em;
     font-family:"Lucida Console", Monaco, monospace;
@@ -93,6 +93,6 @@ div.imgtext {
 div.imgbutton{
     position:absolute;
     top:50%;
-    left:50%;
-    transform-box:(-50%,50%);
+    width:50%;
+    margin-left:25%;
 }
