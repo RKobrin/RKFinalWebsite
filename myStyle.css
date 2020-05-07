@@ -184,9 +184,36 @@ li{
     font-size:1.3em;
 }
 img#statefinals{
-    width:25%;
-    float:right;
+    width:20%;
     border-style:solid;
+    margin-left:1em;
+    margin-right:1em;
+}
+div.worldspics{
+    text-align:center;
+}
+div.a1{
+    display:inline-block;
+    margin-left:1em;
+    margin-right:1em;
+}
+div.a2{
+    display:inline-block;
+    margin-left:1em;
+    margin-right:1em;
+}
+div.a3{
+    display:inline-block;
+    margin-left:1em;
+    margin-right:1em;
+}
+
+div.a4{
+    display:inline-block;
+    margin-left:1em;
+    margin-right:1em;
+}
+ul{
     margin-left:1em;
     margin-right:1em;
 }
