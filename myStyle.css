@@ -29,6 +29,9 @@ h1{
 h2{
     text-align:center;
     font-size:1.5em;
+    background-color:gray;
+    margin-left:30%;
+    margin-right:30%;
 }
 p{
     text-align:center;
@@ -141,5 +144,14 @@ div.l3{
     display:inline-block;
 }
 div.l4{
+    display:inline-block;
+}
+div.l5{
+    display:inline-block;
+}
+div.l6{
+    display:inline-block;
+}
+div.l7{
     display:inline-block;
 }
