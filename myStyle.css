@@ -35,8 +35,8 @@ h2{
 }
 p{
     text-align:center;
-    margin-left:5%;
-    margin-right:5%;
+    margin-left:15%;
+    margin-right:15%;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
     font-size:1.3em;
     margin-bottom:1.5em;
@@ -205,8 +205,6 @@ img#practicefield{
     margin-right:1em;
     filter: grayscale(100%);
 }
-div.worldspics{
-    
 }
 div.a1{
     display:inline-block;
