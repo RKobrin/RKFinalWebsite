@@ -72,10 +72,10 @@ div.drivetraindiv{
     float:left;
 }
 div.intakediv{
-    float:center;
+    float:left;
 }
 div.lineardiv{
-    float:center;
+    float:right;
 }
 div.scoringdiv{
     float:right;
@@ -204,7 +204,6 @@ img#practicefield{
     margin-left:1em;
     margin-right:1em;
     filter: grayscale(100%);
-}
 }
 div.a1{
     display:inline-block;
