@@ -231,3 +231,21 @@ ul{
     margin-left:1em;
     margin-right:1em;
 }
+div#drivetrainbuttons input{
+    display:none;
+}
+div#drivetrainbuttons label{
+    width:15%;
+    border:1px solid black;
+    text-align:center;
+    color:black;
+    font-weight:800;
+    font-size:2em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#drivetrainbuttons input:checked+label{
+    background-color:darkgray;
+}
+div#drivetrainbuttons{
+    text-align:center;
+}
