@@ -230,10 +230,10 @@ ul{
     margin-left:1em;
     margin-right:1em;
 }
-div#drivetrainbuttons,#intakebuttons,#lmechbuttons input{
+div#drivetrainbuttons input{
     display:none;
 }
-div#drivetrainbuttons,#intakebuttons,#lmechbuttons label{
+div#drivetrainbuttons label{
     width:15%;
     border:1px solid black;
     text-align:center;
@@ -242,10 +242,45 @@ div#drivetrainbuttons,#intakebuttons,#lmechbuttons label{
     font-size:2em;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
-div#drivetrainbuttons,#intakebuttons,#lmechbuttons input:checked+label{
+div#drivetrainbuttons input:checked+label{
     background-color:darkgray;
 }
-div#drivetrainbuttons,#intakebuttons,#lmechbuttons{
+div#drivetrainbuttons{
     text-align:center;
 }
-
+div#intakebuttons{
+    text-align:center;
+}
+div#intakebuttons input{
+    display:none;
+}
+div#intakebuttons label{
+    width:15%;
+    border:1px solid black;
+    text-align:center;
+    color:black;
+    font-weight:800;
+    font-size:2em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#intakebuttons input:checked+label{
+    background-color:darkgray;
+}
+div#lmechbuttons{
+    text-align:center;
+}
+div#lmechbuttons input{
+    display:none;
+}
+div#lmechbuttons label{
+    width:15%;
+    border:1px solid black;
+    text-align:center;
+    color:black;
+    font-weight:800;
+    font-size:2em;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#lmechbuttons input:checked+label{
+    background-color:darkgray;
+}
