@@ -231,10 +231,10 @@ ul{
     margin-left:1em;
     margin-right:1em;
 }
-div#drivetrainbuttons,#intakebuttons input{
+div#drivetrainbuttons,#intakebuttons,#lmechbuttons input{
     display:none;
 }
-div#drivetrainbuttons,#intakebuttons label{
+div#drivetrainbuttons,#intakebuttons,#lmechbuttons label{
     width:15%;
     border:1px solid black;
     text-align:center;
@@ -243,10 +243,10 @@ div#drivetrainbuttons,#intakebuttons label{
     font-size:2em;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
 }
-div#drivetrainbuttons,#intakebuttons input:checked+label{
+div#drivetrainbuttons,#intakebuttons,#lmechbuttons input:checked+label{
     background-color:darkgray;
 }
-div#drivetrainbuttons,#intakebuttons{
+div#drivetrainbuttons,#intakebuttons,#lmechbuttons{
     text-align:center;
 }
 
