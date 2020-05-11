@@ -188,6 +188,21 @@ img#statefinals{
     border-style:solid;
     margin-left:1em;
     margin-right:1em;
+    filter: grayscale(100%);
+}
+img#theboys{
+    width:20%;
+    border-style:solid;
+    margin-left:1em;
+    margin-right:1em;
+    filter: grayscale(100%);
+}
+img#practicefield{
+    width:20%;
+    border-style:solid;
+    margin-left:1em;
+    margin-right:1em;
+    filter: grayscale(100%);
 }
 div.worldspics{
     text-align:center;
