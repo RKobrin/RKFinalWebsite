@@ -5,7 +5,7 @@ linkageRadio = document.getElementById("linkage");
 //Getting our Text elements
 slidesWords = document.getElementById("slideswords");
 armWords = document.getElementById("armwords");
-linkagewords = document.getElementById("linkagewords");
+linkageWords = document.getElementById("linkagewords");
 //Creating our function
 function showtext(x) {
     if (x==0){
