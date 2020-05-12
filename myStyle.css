@@ -281,3 +281,27 @@ div#lmechbuttons label{
 div#lmechbuttons input:checked+label{
     background-color:darkgray;
 }
+div#tankwords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#mecanumwords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#hdrivewords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#xdrivewords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#swervewords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
+div#ballwords{
+    text-align:center;
+    font-family:Cambria,Georgia,"Book Antiqua",serif;
+}
