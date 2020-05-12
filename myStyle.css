@@ -165,20 +165,17 @@ img.YangFull{
     border-style:solid;
     border-color:black;
 }
-div.yangsubsystempics{
+div.y1{
     text-align:center;
 }
-div.y1{
-    display:inline-block;
-}
 div.y2{
-    display:inline-block;
+    text-align:center;
 }
 div.y3{
-    display:inline-block;
+    text-align:center;
 }
 div.y4{
-    display:inline-block;
+    text-align:center;
 }
 li{
     font-family:Cambria,Georgia,"Book Antiqua",serif;
