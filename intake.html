@@ -4,7 +4,7 @@
     <meta charset = "utf-8">
     <title>Homepage</title>
     <link rel = "stylesheet" href = "myStyle.css">
-    <script src = "myScript.js" defer></script>
+    <script src = "intakeJS.js" defer></script>
 </head>
 <body>
 <div class="heading">
@@ -24,13 +24,16 @@ At your average FTC competition, you will see all sorts of intakes ranging from 
 <p class="intakeintro">The better your intake, the faster your robot will be able to cycle and score game elements. In FRC robotics, there is a saying that I believe is relevant to intakes:<strong>"Touch It, Own It"</strong>
 A successful, top-tier intake is one that allows your robot to control the game element in question as soon as it makes contact with your robot.</p>
 <div id="intakebuttons">
-    <input type="radio" name="intakeinfo" id="wheeled" value="wheeled" checked>
+    <input type="radio" name="intakeinfo" id="wheeled" value="wheeled" onclick="showtext(0)" checked>
     <label for="wheeled">Wheeled</label>
-    <input type="radio" name="intakeinfo" id="roller" value="roller">
+    <input type="radio" name="intakeinfo" id="roller" value="roller" onclick="showtext(1)">
     <label for="roller">Roller</label>
-    <input type="radio" name="intakeinfo" id="passive" value="passive">
+    <input type="radio" name="intakeinfo" id="passive" value="passive" onclick="showtext(2)">
     <label for="passive">Passive</label>
 </div>
+<div id="wheeledwords">Wheeled Test Words</div>
+<div id="rollerwords">Roller Test Words</div>
+<div id="passivewords">Passive Test Words</div>
 <footer class="flexible">
     <div class="content">Author's Name: Robert Kobrin</div>
 	<div class="content">Last Edited: May 11 2020</div>
