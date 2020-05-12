@@ -87,3 +87,4 @@ function showtext(x) {
     }
 
 }
+tankRadio.click();
