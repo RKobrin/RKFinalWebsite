@@ -14,7 +14,7 @@ xdriveWords=document.getElementById("xdrivewords");
 swerveWords=document.getElementById("swervewords");
 ballWords=document.getElementById("ballwords");
 //setting up array
-var drivetrainArray = [
+/*var drivetrainArray = [
     [tankRadio, mecanumRadio, hdriveRadio, xdriveRadio, swerveRadio, ballRadio],
     [tankWords, mecanumWords, hdriveWords, xdriveWords, swerveWords, ballWords]
 ];
@@ -34,4 +34,56 @@ function onDrivetrainRadioClick() {
     }
 }
 
-drivetrainArray[0][0].click();
+drivetrainArray[0][0].click(); 
+*/
+function showtext(x) {
+    if (x==0) {
+        tankWords.style.display="block";
+        mecanumWords.style.display="none";
+        hdriveWords.style.display="none";
+        xdriveWords.style.display="none";
+        swerveWords.style.display="none";
+        ballWords.style.display="none";
+        }
+    else if (x==1) {
+        tankWords.style.display="none";
+        mecanumWords.style.display="block";
+        hdriveWords.style.display="none";
+        xdriveWords.style.display="none";
+        swerveWords.style.display="none";
+        ballWords.style.display="none";
+    }
+    else if (x==2) {
+        tankWords.style.display="none";
+        mecanumWords.style.display="none";
+        hdriveWords.style.display="block";
+        xdriveWords.style.display="none";
+        swerveWords.style.display="none";
+        ballWords.style.display="none";
+    }
+    else if (x==3) {
+        tankWords.style.display="none";
+        mecanumWords.style.display="none";
+        hdriveWords.style.display="none";
+        xdriveWords.style.display="block";
+        swerveWords.style.display="none";
+        ballWords.style.display="none";
+    }
+    else if (x==4) {
+        tankWords.style.display="none";
+        mecanumWords.style.display="none";
+        hdriveWords.style.display="none";
+        xdriveWords.style.display="none";
+        swerveWords.style.display="block";
+        ballWords.style.display="none";
+    }
+    else if (x==5) {
+        tankWords.style.display="none";
+        mecanumWords.style.display="none";
+        hdriveWords.style.display="none";
+        xdriveWords.style.display="none";
+        swerveWords.style.display="none";
+        ballWords.style.display="block";
+    }
+
+}
