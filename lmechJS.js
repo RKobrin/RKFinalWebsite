@@ -24,3 +24,4 @@ function showtext(x) {
         linkageWords.style.display="block";
     }
 }
+slidesRadio.click();
