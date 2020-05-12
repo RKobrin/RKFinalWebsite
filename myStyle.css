@@ -150,12 +150,6 @@ div.l4{
 div.l5{
     display:inline-block;
 }
-div.l6{
-    display:inline-block;
-}
-div.l7{
-    display:inline-block;
-}
 p.yangfull{
     text-align:center;
     border-style:solid;
@@ -177,23 +171,18 @@ div.y3{
 div.y4{
     text-align:center;
 }
-li{
+div.trophy{
     font-family:Cambria,Georgia,"Book Antiqua",serif;
     font-size:1.3em;
+    margin-right:0;
+    padding-right:0;
+    text-align:center;
 }
-img#statefinals{
-    width:20%;
-    border-style:solid;
-    margin-left:1em;
-    margin-right:1em;
-    filter: grayscale(100%);
-}
-img#theboys{
-    width:20%;
-    border-style:solid;
-    margin-left:1em;
-    margin-right:1em;
-    filter: grayscale(100%);
+p.tr{
+    padding-top:0.2em;
+    padding-bottom:0.2em;
+    margin-top:0;
+    margin-bottom:0;
 }
 img#practicefield{
     width:20%;
@@ -201,6 +190,16 @@ img#practicefield{
     margin-left:1em;
     margin-right:1em;
     filter: grayscale(100%);
+}
+img#statefinal{
+    width:50%;
+    border-style:solid;
+    margin-left:1em;
+    margin-right:1em;
+    filter: grayscale(100%);
+}
+div.worldspics{
+    text-align:center;
 }
 div.a1{
     display:inline-block;
@@ -223,10 +222,7 @@ div.a4{
     margin-left:1em;
     margin-right:1em;
 }
-ul{
-    margin-left:1em;
-    margin-right:1em;
-}
+
 div#drivetrainbuttons input{
     display:none;
 }
