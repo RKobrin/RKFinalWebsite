@@ -29,9 +29,27 @@ That is to say, you're going to need a way to lift the game pieces up. While thi
     <input type="radio" name="lmechinfo" id="linkage" value="linkage" onclick="showtext(2)">
     <label for="linkage">Linkage</label>
 </div>
-<div id="slideswords">Slides Test Words</div>
-<div id="armwords">Arm Test Words</div>
-<div id="linkagewords">Linkage Test Words</div>
+<div id="slideswords">
+    <img id="slidespic" src="images/yanglinearmech.jpg" width=25% height=25%>
+    <p>Linear slides are the most common solution for linear mechanisms. The image above is a render of the linear slide sets on the 731 Skystone robot.</p>
+    <p>There are many varieties of slides that can be used for linear extension, including extrusion, x-rail, and drawer slides. I recommend using <strong>aluminum ball bearing drawer slides</strong>
+    such as those created by Misumi or Long Robotics. These slides can handle the loads of FTC robotics while being smooth and space efficient.</p>
+    <p>To power linear slide sets, you must first create <strong>inserts</strong> that link the slides together. You can attach v-groove bearings to these inserts near the top and the bottom of the slides. Then, by <strong>stringing the slides</strong> 
+    and manipulating the string with a pulley attached to a motor, you can move the slides up and down.</p>
+    <p><strong>It is important to remember that pulley diameter and motor gear reduction are the main factors affecting slide speed.</strong></p>
+</div>
+<div id="armwords">
+    <img id="armpic" src="images/arm.jpg" width=25% height=25%>
+    <p>Arms are a common solution to linear mechanisms often found in lower tier robots. The image above is of a standard, kit-based armbot.</p>
+    <p>In order to make arms viable, many teams will <strong>combine them with linear slides</strong> in order to allow the arm to extend and retract. In these scenarios, a string to retract the slides is essential, as the arm will be at a variety of angles and you cannot rely on gravity alone to retract the slides.</p>
+    <p>In situations where arms are carrying a <strong>large load</strong>, such as the cap ball in Velocity Vortex, it is important to use a <strong>high gear reduction</strong> in order to have enough torque for rotation without burning out your motors.</p>
+</div>
+<div id="linkagewords">
+    <img id="linkagepic" src="images/dr4b.jpg" width=25% height=25%>
+    <p>Linkages are an <strong>uncommon solution</strong> for linear mechanisms, most recently popularized by FTC 11115 Gluten Free in Skystone. The iamge above is a Double Reverse Four bar linkage on a Vex robot.</p>
+    <p>Linkages such as a DR4B linkage work by utilizing <strong>1:1 gearing or other methods of powering</strong> in order to make sure that the top stage stays level with the horizontal at all times.</p>
+    <p>Linkages require <strong>precise PID loops</strong> to control them with pinpoint accuracy, but can be very effective. In general, I would recommend using linear slides over linkages for linear mechanisms. In some games, such as Skystone, the two can be utilized in tandem. The 731 Skystone robot utilized linear slides for the linear mechanism and a virtual four bar linakge for scoring.</p>
+</div>
 <footer class="flexible">
     <div class="content">Author's Name: Robert Kobrin</div>
 	<div class="content">Last Edited: May 11 2020</div>
