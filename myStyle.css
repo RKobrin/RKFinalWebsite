@@ -115,7 +115,7 @@ a.button{
     border-radius:2em;  
     margin-left:1em;
     margin-right:1em;
-    margin-top:2em;
+    margin-bottom:2em;
 }
 a.button:hover{
     background-color:rgba(255, 255, 255, 0.85);
@@ -138,21 +138,27 @@ div.linkbuttons{
 div.l1{
     display:inline-block;
     margin-top:2em;
+    margin-bottom:2em;
 }
 div.l2{
     display:inline-block;
+    margin-bottom:2em;
 }
 div.l3{
     display:inline-block;
+    margin-bottom:2em;
 }
 div.l4{
     display:inline-block;
+    margin-bottom:2em;
 }
 div.l5{
     display:inline-block;
+    margin-bottom:2em;
 }
 div.l6{
     display:inline-block;
+    margin-bottom:2em;
 }
 p.yangfull{
     text-align:center;
