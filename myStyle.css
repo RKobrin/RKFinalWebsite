@@ -393,9 +393,11 @@ img#bstemmech{
     border-style:solid;
     filter:grayscale(100%);
     float:left;
+    margin-left:1em;
 }
 img#tamech{
     border-style:solid;
     filter:grayscale(100%);
     float:right;
+    margin-right:1em;
 }
