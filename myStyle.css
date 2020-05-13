@@ -107,7 +107,7 @@ a.button{
     text-decoration: none;
     background-color: rgba(255, 255, 255, 0.7);
     color: #333333;
-    padding: 10px 30px 10px 30px;
+    padding: 1vw 2vw 1vw 2vw;
     border-top: 1px solid #CCCCCC;
     border-right: 1px solid #333333;
     border-bottom: 1px solid #333333;
@@ -115,6 +115,7 @@ a.button{
     border-radius:2em;  
     margin-left:1em;
     margin-right:1em;
+    margin-top:2em;
 }
 a.button:hover{
     background-color:rgba(255, 255, 255, 0.85);
@@ -387,4 +388,14 @@ img#armpic{
 img#linkagepic{
     border-style:solid;
     filter:grayscale(100%);
+}
+img#bstemmech{
+    border-style:solid;
+    filter:grayscale(100%);
+    float:left;
+}
+img#tamech{
+    border-style:solid;
+    filter:grayscale(100%);
+    float:right;
 }
