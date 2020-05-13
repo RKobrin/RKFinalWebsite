@@ -283,48 +283,64 @@ div#lmechbuttons input:checked+label{
 div#tankwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#mecanumwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#hdrivewords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#xdrivewords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#swervewords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#ballwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#slideswords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#armwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#linkagewords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#wheeledwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#rollerwords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
 }
 div#passivewords{
     text-align:center;
     font-family:Cambria,Georgia,"Book Antiqua",serif;
+    margin-top:1em;
+}
+img#tankdrive{
+    border-style:solid;
+    filter:grayscale(100%);
 }
