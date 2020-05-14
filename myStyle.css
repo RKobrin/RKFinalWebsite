@@ -132,6 +132,10 @@ div.headingtext{
     font-size:2em;
     text-align:center;
 }
+a.RKR{
+    text-decoration:none;
+    color:white;
+}
 div.linkbuttons{
     text-align:center;
 }
