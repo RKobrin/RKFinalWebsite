@@ -413,8 +413,8 @@ img#tamech{
         font-weight:800;
     }
     h2{
-        margin-left:15%;
-        margin-right:15%;
+        margin-left:0%;
+        margin-right:0%;
     }
 }
 @media screen and (orientation: portrait) {
