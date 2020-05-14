@@ -408,5 +408,8 @@ img#tamech{
     margin-right:1em;
 }
 @media (max-width:600px) {
-    font-size:1em;
+    div.imgtext{
+        font-size:1.25em;
+        font-weight:800;
+    }
 }
